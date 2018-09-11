@@ -41,8 +41,8 @@ public class TestaAnimal {
 		olga.setRaca("Pug");
 		
 		Caracteristica caractOlga = new Caracteristica();
-		caractOlga.setPeso(15);
-		caractOlga.setAltura(15);
+		caractOlga.setPeso(15f);
+		caractOlga.setAltura(15f);
 		caractOlga.setCor("Marrom");
 		olga.setCaracteristica(caractOlga);
 		olga.exibir();
@@ -56,8 +56,8 @@ public class TestaAnimal {
 		ronda.setRaca("Rottweiler");
 		
 		Caracteristica caractRonda = new Caracteristica();
-		caractRonda.setPeso(40);
-		caractRonda.setAltura(50);
+		caractRonda.setPeso(40f);
+		caractRonda.setAltura(50f);
 		caractRonda.setCor("Preta");
 		ronda.setCaracteristica(caractRonda);
 		ronda.exibir();
